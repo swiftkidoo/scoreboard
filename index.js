@@ -38,10 +38,12 @@ function awayscore3() {
 
 function homeresert() {
     homeEl.textContent = 0
+    homeScore = 0
 }
 
 function awayresert() {
     awayEl.textContent = 0
+     awayScore = 0
 }
 // Timer functions
 let timerEl = document.getElementById("timer-el");
