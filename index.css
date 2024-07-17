@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background: #1B244A;
+    margin-top: 68px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 106px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1px;
+    margin-bottom: 25px;
+}
+
+#home-el, #away-el {
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 3px;
+    border: none;
+    background: #080001;
+    color: #F94F6D;
+    padding: 20px 40px;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+button {
+    font-size: 18px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 2px 4px;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c03d54;
+}
+
+#timer-el {
+    font-size: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #c03d54;
+    background: #000;
+    display: inline-flex;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}

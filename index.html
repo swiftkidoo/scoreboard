@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My basketball scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <div>
+            <h1>HOME</h1>
+            <h2 id="home-el">0</h2>
+            <button onclick="homescore1()">+1</button>
+            <button onclick="homescore2()">+2</button>
+            <button onclick="homescore3()">+3</button>
+            <button onclick="homeresert()">resert</button>
+        </div>
+        <div>
+            <h1>AWAY</h1>
+            <h2 id="away-el">0</h2>
+            <button onclick="awayscore1()">+1</button>
+            <button onclick="awayscore2()">+2</button>
+            <button onclick="awayscore3()">+3</button>
+            <button onclick="awayresert()">resert</button>
+        </div>
+        </div>
+        <div>
+            <h1>TIMER</h1>
+            <h2 id="timer-el">15:00</h2><br>
+            <button onclick="startTimer()">start timer</button>
+            <button onclick="resetTimer()">Reset Timer</button>
+        </div>
+    <script src="index.js"></script>
+    </body>
+</html>
